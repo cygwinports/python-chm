@@ -5,15 +5,15 @@ archive. It uses the functionality implemented in chmlib, a
 C-based library written by Jed Wing.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  chmlib-0.37-1
+  cygwin-1.5.21-2
+  libchm0-0.38-1
   python-2.4.3-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.19-4
-  binutils-20050610-1
-  cygport-0.1.93-1
+  cygwin-1.5.21-2
+  binutils-20060817-1
+  cygport-0.2.6-1
   gcc-core-3.4.4-1
 
 Canonical homepage:
@@ -25,15 +25,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack pychm-0.8.3-1-src.tar.bz2
+  unpack pychm-0.8.4-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pychm-0.8.3-1.cygport all
+  cygport ./pychm-0.8.4-1.cygport all
 
 This will create:
-  /usr/src/pychm-0.8.3-1-src.tar.bz2
-  /usr/src/pychm-0.8.3-1.tar.bz2
+  /usr/src/pychm-0.8.4-1-src.tar.bz2
+  /usr/src/pychm-0.8.4-1.tar.bz2
 
 -------------------------------------------
 
@@ -50,15 +50,18 @@ Files included in the binary package:
   /usr/lib/python2.4/site-packages/chm/chmlib.pyc
   /usr/lib/python2.4/site-packages/chm/chmlib.pyo
   /usr/lib/python2.4/site-packages/chm/extra.dll
-  /usr/share/doc/Cygwin/pychm-0.8.3.README
-  /usr/share/doc/pychm-0.8.3/ChangeLog
-  /usr/share/doc/pychm-0.8.3/COPYING
-  /usr/share/doc/pychm-0.8.3/NEWS
-  /usr/share/doc/pychm-0.8.3/README
+  /usr/share/doc/Cygwin/pychm-0.8.4.README
+  /usr/share/doc/pychm-0.8.4/ChangeLog
+  /usr/share/doc/pychm-0.8.4/COPYING
+  /usr/share/doc/pychm-0.8.4/NEWS
+  /usr/share/doc/pychm-0.8.4/README
 
 ------------------
 
 Port Notes:
+
+----- version 0.8.4-1 -----
+Version bump.
 
 ----- version 0.8.3-1 -----
 Version bump.
