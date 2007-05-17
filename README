@@ -1,64 +1,68 @@
-pychm
+python-chm
 -------------------------------------------
 PyCHM contains a Python package named chm to manipulate CHM
 archive. It uses the functionality implemented in chmlib, a 
 C-based library written by Jed Wing.
 
 Runtime requirements:
-  cygwin-1.5.21-2
-  libchm0-0.38-1
-  python-2.4.3-1
+  cygwin-1.5.24-2
+  libchm0-0.39-1
+  python-2.5.1-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gcc-core-3.4.4-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
 
 Canonical homepage:
   http://gnochm.sourceforge.net/pychm.html
 
 Canonical download:
-  http://prdownloads.sourceforge.net/gnochm/
+  http://downloads.sourceforge.net/gnochm/
 
 -------------------------------------------
 
 Build instructions:
-  unpack pychm-0.8.4-1-src.tar.bz2
+  unpack python-chm-0.8.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pychm-0.8.4-1.cygport all
+  cygport ./python-chm-0.8.4-X.cygport all
 
 This will create:
-  /usr/src/pychm-0.8.4-1-src.tar.bz2
-  /usr/src/pychm-0.8.4-1.tar.bz2
+  /usr/src/python-chm-0.8.4-X-src.tar.bz2
+  /usr/src/python-chm-0.8.4-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.4/site-packages/chm/__init__.py
-  /usr/lib/python2.4/site-packages/chm/__init__.pyc
-  /usr/lib/python2.4/site-packages/chm/__init__.pyo
-  /usr/lib/python2.4/site-packages/chm/_chmlib.dll
-  /usr/lib/python2.4/site-packages/chm/chm.py
-  /usr/lib/python2.4/site-packages/chm/chm.pyc
-  /usr/lib/python2.4/site-packages/chm/chm.pyo
-  /usr/lib/python2.4/site-packages/chm/chmlib.py
-  /usr/lib/python2.4/site-packages/chm/chmlib.pyc
-  /usr/lib/python2.4/site-packages/chm/chmlib.pyo
-  /usr/lib/python2.4/site-packages/chm/extra.dll
-  /usr/share/doc/Cygwin/pychm-0.8.4.README
-  /usr/share/doc/pychm-0.8.4/ChangeLog
-  /usr/share/doc/pychm-0.8.4/COPYING
-  /usr/share/doc/pychm-0.8.4/NEWS
-  /usr/share/doc/pychm-0.8.4/README
+  /usr/lib/python2.5/site-packages/chm/__init__.py
+  /usr/lib/python2.5/site-packages/chm/__init__.pyc
+  /usr/lib/python2.5/site-packages/chm/__init__.pyo
+  /usr/lib/python2.5/site-packages/chm/_chmlib.dll
+  /usr/lib/python2.5/site-packages/chm/chm.py
+  /usr/lib/python2.5/site-packages/chm/chm.pyc
+  /usr/lib/python2.5/site-packages/chm/chm.pyo
+  /usr/lib/python2.5/site-packages/chm/chmlib.py
+  /usr/lib/python2.5/site-packages/chm/chmlib.pyc
+  /usr/lib/python2.5/site-packages/chm/chmlib.pyo
+  /usr/lib/python2.5/site-packages/chm/extra.dll
+  /usr/lib/python2.5/site-packages/pychm-0.8.4-py2.5.egg-info
+  /usr/share/doc/Cygwin/python-chm-0.8.4.README
+  /usr/share/doc/python-chm-0.8.4/ChangeLog
+  /usr/share/doc/python-chm-0.8.4/COPYING
+  /usr/share/doc/python-chm-0.8.4/NEWS
+  /usr/share/doc/python-chm-0.8.4/README
 
 ------------------
 
 Port Notes:
+
+----- version 0.8.4-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.8.4-1 -----
 Version bump.

@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="Python CHMLib bindings"
+HOMEPAGE="http://gnochm.sourceforge.net/pychm.html"
+SRC_URI="mirror://sourceforge/gnochm/${ORIG_PN}-${PV}.tar.gz"
