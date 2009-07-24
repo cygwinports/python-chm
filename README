@@ -5,16 +5,16 @@ archive. It uses the functionality implemented in chmlib, a
 C-based library written by Jed Wing.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libchm0-0.39-1
-  python-2.5.1-1
+  cygwin-1.7.0-51
+  libchm0-0.40-1
+  libgcc1-4.3.2-2
+  python-2.5.4-10
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  binutils-20060817-1
-  cygport-0.3.1-1
-  gcc-core-3.4.4-3
+  binutils-2.19.51-1
+  cygport-0.9.8-1
+  gcc4-core-4.3.2-2
 
 Canonical homepage:
   http://gnochm.sourceforge.net/pychm.html
@@ -52,26 +52,17 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/chm/extra.dll
   /usr/lib/python2.5/site-packages/pychm-0.8.4-py2.5.egg-info
   /usr/share/doc/Cygwin/python-chm-0.8.4.README
-  /usr/share/doc/python-chm-0.8.4/ChangeLog
-  /usr/share/doc/python-chm-0.8.4/COPYING
-  /usr/share/doc/python-chm-0.8.4/NEWS
-  /usr/share/doc/python-chm-0.8.4/README
+  /usr/share/doc/python-chm/ChangeLog
+  /usr/share/doc/python-chm/COPYING
+  /usr/share/doc/python-chm/NEWS
+  /usr/share/doc/python-chm/README
 
 ------------------
 
 Port Notes:
 
------ version 0.8.4-2 -----
-Rebuilt for python-2.5.
-
------ version 0.8.4-1 -----
-Version bump.
-
------ version 0.8.3-1 -----
-Version bump.
-
------ version 0.8.2-1 -----
-Initial release for Cygwin.
+----- version 0.8.4-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

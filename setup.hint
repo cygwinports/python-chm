@@ -1,5 +1,5 @@
 category: Python
-requires: libchm0 python
+requires: libchm0 libgcc1 python
 sdesc: "Python bindings to chmlib"
 ldesc: "PyCHM contains a Python package named chm to manipulate CHM
 archive. It uses the functionality implemented in chmlib, a C-based

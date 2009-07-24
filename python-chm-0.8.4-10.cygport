@@ -1,3 +1,4 @@
+ORIG_PN="pychm"
 inherit distutils
 
 DESCRIPTION="Python CHMLib bindings"
