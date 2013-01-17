@@ -1,0 +1,13 @@
+ORIG_PN="pychm"
+inherit distutils
+
+NAME="python-chm"
+VERSION=0.8.4
+RELEASE=12
+CATEGORY="Python"
+SUMMARY="Python bindings to chmlib"
+DESCRIPTION="PyCHM contains a Python package named chm to manipulate CHM
+archives. It uses the functionality implemented in chmlib, a C-based library
+written by Jed Wing."
+HOMEPAGE="http://gnochm.sourceforge.net/pychm.html"
+SRC_URI="mirror://sourceforge/gnochm/${ORIG_PN}-${PV}.tar.gz"
